@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div className='bg-amber-700'>App</div>
-  )
-}
+    <main className="relative min-h-screen w-screen overflow-hidden">
+      <Hero />
+    </main>
+  );
+};
 
-export default App
+export default App;
